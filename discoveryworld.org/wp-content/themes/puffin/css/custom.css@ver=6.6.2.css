@@ -1,0 +1,2519 @@
+@font-face {
+  font-family: "Brandon Text Bold";
+  src: url("../../../../../db.onlinewebfonts.com/t/c748ccbec3f1b70a8e22330d9beb9814.eot");
+  src: url("../../../../../db.onlinewebfonts.com/t/c748ccbec3f1b70a8e22330d9beb9814.eot@")
+      format("embedded-opentype"),
+    url("../../../../../db.onlinewebfonts.com/t/c748ccbec3f1b70a8e22330d9beb9814.woff2")
+      format("woff2"),
+    url("../../../../../db.onlinewebfonts.com/t/c748ccbec3f1b70a8e22330d9beb9814.woff")
+      format("woff"),
+    url("../../../../../db.onlinewebfonts.com/t/c748ccbec3f1b70a8e22330d9beb9814.ttf")
+      format("truetype"),
+    url("../../../../../db.onlinewebfonts.com/t/c748ccbec3f1b70a8e22330d9beb9814.svg")
+      format("svg");
+}
+
+#tribe-events-pg-template {
+  max-width: 1440px;
+}
+.tribe-events-single-event-title {
+  text-align: left !important;
+}
+.tribe-events-schedule {
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+.clsDataTime,
+.clsEventCost {
+  width: 100%;
+}
+.clsDataTime h2 {
+  font-size: 21px !important;
+  margin: 0;
+  line-height: normal !important;
+}
+.clsEventCost .tribe-events-cost {
+  margin-left: 0;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.clsEventContent {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 30px 0 0 0;
+}
+.clsEventContent .tribe-events-event-image {
+  margin-bottom: 0;
+}
+.clsEventContent .tribe-events-content {
+  padding: 0 50px 0 0;
+}
+.tribe-events-event-meta::before {
+  display: none;
+}
+.tribe-events-meta-group-details {
+  padding-top: 0;
+}
+.clsMetaDetails p,
+.clsMetaDetails .tribe-events-start-tim {
+  font-size: 16px;
+}
+.clsEventFeaturedImage img {
+  max-width: 600px;
+  height: auto;
+  padding-left: 20px;
+}
+.clsEventCategories,
+.clsEventTags {
+  display: flex;
+  align-items: center;
+}
+.clsEventCategories h3 {
+  font-size: 17px !important;
+  line-height: normal !important;
+  text-transform: capitalize !important;
+  font-weight: normal !important;
+  padding: 0 10px 0 0;
+  position: relative;
+  top: 2px;
+}
+.clsEventTags .tribe-event-tags-label {
+  padding-right: 10px;
+}
+.clsMetaDetails .tribe-events-start-date {
+  text-decoration: none;
+}
+.tribe-events-sub-nav {
+  padding: 0;
+}
+#tribe-events-footer {
+  border: none;
+}
+.tribe-common-c-btn-border.tribe-events-c-subscribe-dropdown__button {
+  border-color: #ef548a;
+}
+.tribe-events-single > .tribe_events {
+  overflow: visible;
+}
+.tribe-common-c-btn-border.tribe-events-c-subscribe-dropdown__button:hover {
+  background: #ef548a !important;
+  color: #fff !important;
+}
+.tribe-common-c-svgicon {
+  color: #ef548a !important;
+}
+.tribe-events-c-subscribe-dropdown__button-text {
+  color: #ef548a !important;
+  font-weight: normal !important;
+}
+/* .tribe-events.tribe-common, .clsEventCatTags {
+  padding-left: 20px;
+} */
+.clsDiscoveryHomeTitle h3 {
+  line-height: 67px !important;
+}
+.clsDiscoveryHomeTitle h3 {
+  letter-spacing: 0 !important;
+  text-transform: capitalize;
+}
+.clsDiscoveryHomeList .container {
+  width: 85%;
+}
+.clsDiscoveryHomeList {
+  padding-bottom: 40px !important;
+}
+.clsDWBtn {
+  text-decoration: none !important;
+}
+.clsClasspage .clsDiscoveryHomeListDetails {
+  padding: 25px;
+  min-height: 465px !important;
+}
+.clsClasspage .clsDiscoveryHomeList .container {
+  height: auto;
+  overflow: hidden;
+}
+
+.single-classes .container li,
+.clsdescription {
+  font-size: 19px;
+  line-height: 26px;
+  color: #1c194f;
+  padding: 0px 10px 0px;
+}
+.clsAreaOfFocus, .clsAddtionalNote {
+  font-size: 19px;
+  line-height: 26px;
+  color: #1c194f;
+  padding: 0px 10px 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+.single-classes .container p {
+  font-size: 19px;
+  line-height: 26px;
+  color: #1c194f;
+}
+.clsGradeDurationDiv {
+  display: flex;
+  margin: 7px 0;
+  padding: 0px 10px 20px;
+}
+.clsDpiStandards,
+.clsClassExperience {
+  padding: 0px 10px 0px;
+}
+.clsGrade,
+.clsduration {
+  font-size: 19px;
+  line-height: 26px;
+  color: #1c194f;
+  padding: 0px 10px 0 0;
+  border-right: 1px solid #ddd;
+}
+.clsduration {
+  border-right: none;
+  padding: 0px 0 0 10px;
+}
+.kdil-class {
+  background: #666;
+  max-width: 450px;
+  margin: 0 auto 25px auto;
+  display: block;
+}
+.discoveryfirst .discoveryHome,
+.clsClasspage .discoveryHome {
+  padding-top: 0;
+}
+.discoveryfirst .discoveryHome .clsClassesCatFilter,
+.clsClasspage .clsClassesCatFilter {
+  padding-bottom: 0px;
+}
+
+/* .clsClasspage ul.clsDHFilter, .clsClassesCatFilter ul.clsDHFilter{
+  padding-bottom: 0px;
+} */
+/* .clsClasspage ul.clsDHFilter li, .clsClassesCatFilter ul.clsDHFilter li{
+  margin: 0px;
+} */
+.clsClasspage ul.clsDHFilter li.clsFilterActive,
+.clsClassesCatFilter ul.clsDHFilter li.clsFilterActive {
+  background: #1c194f;
+}
+.clsClassescategory .clsCatName::after {
+  content: ", ";
+}
+.clsClassescategory .clsCatName:last-child::after {
+  display: none;
+}
+.clsClassesTitle h3:hover {
+  color: #fff !important;
+}
+.clsClassesTitle h3 {
+  text-transform: lowercase !important;
+  /*text-align: center!important;*/
+}
+.clsClassesTitle h3::first-letter {
+  text-transform: capitalize;
+}
+.clsSingleSecond {
+  max-width: 1920px;
+  display: flex;
+  overflow: hidden;
+}
+.clsSingleExcus {
+  width: 75%;
+}
+.clsCuriosityText {
+  width: 25%;
+  background: url(../../../uploads/2022/08/CURIOSITY-graphic.svg)
+    no-repeat center center;
+  background-size: contain;
+}
+.clsExpPDF {
+  text-align: right;
+}
+
+.clsReadmore {
+  width: 50%;
+  background: #ef538a;
+  font-size: 19px;
+  padding: 10px 25px !important;
+  color: #fff !important;
+  font-size: 19px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 27px;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+.clsDiscoveryHomeListDetails:hover .clsReadmore {
+  background: #1c194f;
+  color: #fff !important;
+}
+@media (max-width: 767px) {
+  .clsDiscoveryHomeTitle h3 {
+    line-height: normal !important;
+  }
+  ul.clsDHFilter li {
+    width: auto !important;
+  }
+
+  .single-volunteer .container ul,
+  .single-job_opportunities .container ul {
+    padding-left: 30px !important;
+    width: 100% !important;
+  }
+  .clsTopTitle h1 {
+    font-size: 30px !important;
+    line-height: 40px !important;
+  }
+  #gform_wrapper_18,
+  #gform_wrapper_10,
+  #gform_wrapper_9,
+  #gform_wrapper_8,
+  #gform_wrapper_6,
+  #gform_wrapper_7,
+  #gform_wrapper_5,
+  #gform_wrapper_17,
+  #gform_wrapper_12 {
+    padding: 0 25px 25px !important;
+  }
+  #gform_wrapper_18.gform_legacy_markup_wrapper #field_18_36.gsection,
+  #gform_wrapper_10.gform_legacy_markup_wrapper #field_10_28.gsection,
+  #gform_wrapper_9.gform_legacy_markup_wrapper #field_9_28.gsection {
+    padding: 20px 0px 8px 0 !important;
+  }
+
+  #gform_wrapper_18.gform_legacy_markup_wrapper .gsection_description,
+  #gform_wrapper_18.gform_legacy_markup_wrapper .gfield_description,
+  #gform_wrapper_10.gform_legacy_markup_wrapper .gfield_description,
+  #gform_wrapper_9.gform_legacy_markup_wrapper .gsection_description,
+  #gform_wrapper_8.gform_legacy_markup_wrapper .gfield_description,
+  #gform_wrapper_7.gform_legacy_markup_wrapper .gfield_description,
+  #gform_wrapper_5.gform_legacy_markup_wrapper .gfield_description,
+  #gform_wrapper_17.gform_legacy_markup_wrapper .gfield_description,
+  #gform_wrapper_12.gform_legacy_markup_wrapper .gfield_description {
+    padding: 0px;
+    line-height: 19px;
+  }
+
+  #gform_wrapper_10 #field_10_9.field_description_below,
+  #gform_wrapper_10 #field_10_13.field_description_below,
+  #gform_wrapper_10 #field_10_30.field_description_below,
+  #gform_wrapper_9 #field_9_13.field_description_below,
+  #gform_wrapper_9 #field_9_30.field_description_below,
+  #gform_wrapper_17 #field_17_37 p,
+  #gform_wrapper_17 #field_17_68.field_description_below,
+  #gform_wrapper_12 #field_12_81.field_description_below {
+    line-height: 19px;
+  }
+  #gform_wrapper_18.gform_legacy_markup_wrapper h2.gsection_title,
+  #gform_wrapper_10.gform_legacy_markup_wrapper h2.gsection_title,
+  #gform_wrapper_9.gform_legacy_markup_wrapper h2.gsection_title,
+  #gform_wrapper_8.gform_legacy_markup_wrapper h2.gsection_title,
+  #gform_wrapper_17.gform_legacy_markup_wrapper h2,
+  #gform_wrapper_12.gform_legacy_markup_wrapper h2 {
+    line-height: 30px;
+    padding-bottom: 15px !important;
+    font-size: 23px;
+  }
+  #gform_wrapper_10 #field_10_32.field_description_below p,
+  #gform_wrapper_9 #field_9_32.field_description_below p {
+    word-wrap: break-word;
+  }
+  #gform_submit_button_12 {
+    font-size: 12px;
+    padding: 10px 12px !important;
+  }
+  .membershipBenefits .elementor-icon-list-items {
+    width: 85%;
+  }
+  .accordionTxt .elementor-widget-container {
+    width: 85%;
+  }
+  .clsMoreqstn h4 {
+    line-height: 30px;
+  }
+  .clsQuestn ul li {
+    width: 100% !important;
+  }
+  .volunterpostn .post-listing,
+  .clsjobopportunity .post-listing {
+    column-count: 1 !important;
+    column-rule: 0px solid #ddd !important;
+    width: 100% !important;
+  }
+  .single-classes .single h1,
+  .single-volunteer .single h1,
+  .single-job_opportunities .single h1 {
+    line-height: 34px !important;
+    font-size: 30px !important;
+  }
+  .single.single-volunteer h3,
+  .single.single-job_opportunities h3 {
+    line-height: 30px;
+  }
+  .single.single-volunteer .content-area.single,
+  .single.single-job_opportunities .content-area.single {
+    padding: 30px 0px;
+  }
+  .clsAlredymembr p br {
+    display: none;
+  }
+  #gform_2 input[type="text"],
+  .clsGeneralInform .accordionTxt .elementor-widget-container {
+    width: 100%;
+  }
+  .clsDonate br {
+    display: none;
+  }
+  .clsQuote h6{font-size:20px!important;}
+  .clsSummerCampListing .expBg1.expCon {
+    padding-bottom: 0px;
+  }
+  .clsSummerCampListing .expTle {
+    padding: 70px 0 25px 0px !important;
+  }
+  .clsSummercontent .container {
+    width: 84% !important;
+  }
+  .clsSummercontent .clsSummerCampListing .clsExperienceList {
+    padding: 25px 30px 25px 30px !important;
+    min-height: inherit !important;
+    float: none !important;
+    margin: 0 0% 30px !important;
+  }
+  .clsSummercontent .clsSummerCampListing .clsSummerCamp2 .clsExperienceList {
+    width: 100% !important;
+  }
+  .clsListItems ul li {
+    width: 100% !important;
+    margin: 1% 0 4% 0 !important;
+    height: auto !important;
+  }
+  .clsBoardmember a {
+    width: 100% !important;
+  }
+  .homeUpcoming
+    .tribe-events-widget-events-list__events
+    .tribe-common-g-row
+    img {
+    bottom: 12px !important;
+  }
+  .clsLocation .clsExpTxt img,
+  .clsAdmissions .clsExpTxt img {
+    width: 100% !important;
+  }
+  .single-experiences
+    .clsSingleExperience
+    .generationSpace
+    .elementor-widget-wrap {
+    padding-left: 8% !important;
+  }
+  .clsGradientbg {
+    background: none !important;
+  }
+  .clsGradientbg .clsAdmission {
+    background: #1c194f;
+  }
+  .clsGradientbg .clsHoursvisit {
+    background: #c6e6fa;
+  }
+  .clsExperienceList .blog-content h2 a,
+  .clsExperienceList .blog-content h2 a span {
+    font-size: 25px !important;
+  }
+  .clsExperienceList .blog-content h2 a img {
+    width: 20% !important;
+  }
+  .clsViewAll {
+    width: 100% !important;
+  }
+  .tribe-events.tribe-common {
+    padding: 0px 15px;
+  }
+  .tribe-events.tribe-common .tribe-common-l-container {
+    padding-left: 0px;
+  }
+  .wsx-featuredImage-description {
+    display: block !important;
+  }
+  .clsImage-btn,
+  .wsx-description-btn {
+    width: 100% !important;
+  }
+  .wsx-description-btn {
+    width: 100% !important;
+    margin-left: 0px !important;
+  }
+  .single.single-tribe_events h1.tribe-events-single-event-title,
+  .single.single-tribe_events .tribe-events-content h2 {
+    line-height: 35px !important;
+  }
+  .clsFieldtripsbtn .ghostbtn {
+    font-size: 12px !important;
+    padding: 12px !important;
+  }
+  .clsClasspage .discoveryHome::after {
+    background: none;
+  }
+  .clsClasspage ul.clsDHFilter li,
+  .clsClassesCatFilter ul.clsDHFilter li {
+    margin: 0 0 15px;
+  }
+  .clsDiscoveryHomeTitle h3,
+  .clsDiscoveryHomeTitle h3 span {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .clsGalainformation .elementor-col-33 {
+    width: 100% !important;
+  }
+  .clsBgsizepercent,
+  .clsSciencebound,
+  .clsSponser,
+  .clsExplore .elementor-element-a3d0afe > .elementor-column-wrap {
+    background: none !important;
+  }
+  .buyticketImage img {
+    top: -205px;
+    z-index: -1;
+    margin: 0;
+  }
+  .clsBgsizesumcamp {
+    z-index: -2;
+  }
+  .clsCuriosityText,
+  .clsMultiImage .slick-prev.slick-arrow,
+  .clsMultiImage .slick-next.slick-arrow {
+    display: none !important;
+  }
+  .clsSingleExcus {
+    width: 100%;
+  }
+  .clsAge.active2 .clsExpTxt,
+  .clsAge.active3 .clsExpTxt,
+  .clsAge.active4 .clsExpTxt,
+  .clsAge.active5 .clsExpTxt,
+  .clsAge.active6 .clsExpTxt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .clsSingleExperience .clsLocation .clsExpTxt,
+  .clsSingleExperience .clsAdmissions .clsExpTxt {
+    text-align: center;
+  }
+  .clsMobview {
+    display: none !important;
+  }
+  .clsBtnsummer {
+    display: block !important;
+  }
+  .clsBtnsummer1 {
+    display: block !important;
+    margin-bottom: 25px;
+  }
+  .clsSummertop .ghostbtn.margn {
+    margin-right: 0px !important;
+    padding: 10px 25px !important;
+  }
+  .clsSummertop .ghostbtn {
+    font-size: 17px !important;
+    padding: 12px 75px !important;
+  }
+  .single-classes .clsdescription,
+  .single-classes .clsGradeDurationDiv,
+  .single-classes .clsDpiStandards {
+    width: 100% !important;
+  }
+  .single-classes .single h1,
+  .clsSingleExperience .clsAdditionalContent h3 {
+    text-align: left !important;
+  }
+  .clsSingleExperience .clsAdditionalContent {
+    width: 100% !important;
+    margin: 0 auto;
+  }
+  .homeUpcoming .tribe-events-widget-events-list__events .tribe-common-g-row a.clsUpcomingLink{bottom: 10px !important;}
+  .tribe-common--breakpoint-medium.tribe-events-widget .tribe-events-widget-events-list__event-title{padding-bottom: 10px !important;}
+  .clsECbtn{display: block !important;}
+.clsECbtn p{width: 100%;}
+.clsECbtn p .clsRegisterbtn{font-size: 12px !important;}
+.clsHeroImage .Bannercontainer h2{font-size: 38px !important;}
+.clsHeroImage{height: 400px !important;}
+
+  .clsDiscoveryHomeListDetails h2, .clsDiscoveryHomeListDetails h4{
+    min-height:85px !important;
+  }
+  .headerMenu nav ul li.menu-item-537 ul li.clsAthomeMenu a {
+    padding: 10px 25px 0px !important;
+  }
+  .menu-item-6892 {
+    padding-bottom: 20px !important;
+  }
+  .elementor-521 .elementor-element.elementor-element-2fa69aa .elementor-nav-menu__container.elementor-nav-menu--dropdown{
+    margin-top: 55px !important;
+  }
+}
+
+.clsClasspage .discoveryHome .clsClassDescription p,
+.clsClasspage .clsReadmore {
+  text-align: left;
+  padding-top: 15px;
+}
+.clsClasspage .clsClassesCatFilter {
+  padding-bottom: 0px;
+}
+.clsClasspage .clsDHFilter {
+  padding-bottom: 0px;
+}
+.accordionBtn {
+  font-family: "visby_cfextra_bold" !important;
+  font-size: 22px;
+  font-weight: 900;
+  text-transform: uppercase;
+  background-color: #ef538a;
+  padding: 12px 24px;
+  color: #fff !important;
+  margin-top: 15px;
+  display: inline-block;
+}
+.accordionBtn:hover {
+  background-color: #1c194f;
+}
+.clsQuestn ul li {
+  width: 32%;
+}
+.clsQuestn .fa-envelope {
+  position: relative;
+  top: 3px;
+}
+.clsClasspage .clsReadmore a {
+  text-decoration: underline;
+}
+.clsClasspage .clsReadmore a:hover {
+  text-decoration: none;
+}
+.single-classes .single h1 {
+  text-align: center;
+  padding: 0px 0px 15px 10px;
+}
+.single-classes .clsdescription,
+.single-classes .clsGradeDurationDiv,
+.single-classes .clsDpiStandards {
+  width: 80%;
+  margin: 0 auto;
+}
+.single-volunteer .single h1,
+.single-job_opportunities .single h1 {
+  text-align: left;
+}
+.single-classes .kdil-class {
+  margin: 0 0 25px;
+}
+.membershipBenefits ul li span a {
+  font-weight: 700;
+}
+.accordionTxt .ghostbtn.mempad {
+  padding: 12px 96px;
+}
+.accordionTxt .ghostbtn.mempad1 {
+  padding: 12px 77px;
+}
+body .Bannercontainer h1,
+body .Bannercontainer h3 {
+  color: #fff;
+}
+.single.single-discovery_world_home h1 {
+  text-align: center;
+}
+.clsHistory .clsObjectfithistry,
+.clsHistory .clsObjectfithistry .elementor-widget-container,
+.clsHistory .clsObjectfithistry .elementor-image,
+.clsHistory .clsObjectfithistry img {
+  height: 100%;
+  width: 100%;
+}
+.clsSupportplanned .elementor-widget-container,
+.clsSupportplanned .elementor-image,
+.clsSupportImage img {
+  height: 100%;
+}
+.clsGroupVisit .elementor-widget-text-editor .elementor-widget-container p {
+  padding: 0px !important;
+}
+.accordionTxt h3.clsGroupaccordion {
+  padding-bottom: 7px;
+}
+ul.clsGroupthird {
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+ul.clsGroupfirst,
+ul.clsGroupsecond {
+  padding-bottom: 0px;
+}
+ul.clsSingleGroup {
+  padding: 0px 0 10px 30px;
+}
+.clsContactdetail p:nth-child(2),
+.clsContactdetail1 p:nth-child(3) {
+  margin-bottom: 0px;
+}
+.clsAsterik {
+  color: #790000;
+}
+
+.clsPress_room {
+  width: 50% !important;
+}
+
+/* Form page start */
+
+#gform_wrapper_18,
+#gform_wrapper_10,
+#gform_wrapper_9,
+#gform_wrapper_13,
+#gform_wrapper_8,
+#gform_wrapper_17,
+#gform_wrapper_6,
+#gform_wrapper_7,
+#gform_wrapper_5,
+#gform_wrapper_12 {
+  border: 1px solid #eee;
+  background: #fff;
+  padding: 0 35px 35px;
+  max-width: 700px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.1);
+}
+#gform_wrapper_2 {
+  border: 1px solid #eee;
+  background: #fff;
+  padding: 30px 35px 35px;
+  max-width: 100%;
+  margin-top: 30px;
+  /* box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.1); */
+}
+.clsThankYouPage > p {
+  max-width: 770px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+.clsTopTitle {
+  max-width: 750px;
+  line-height: 50px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+#gform_18 input[type="text"],
+#gform_18 textarea,
+#gform_10 input[type="text"],
+#gform_10 textarea,
+#gform_9 input[type="text"],
+#gform_9 textarea,
+#gform_13 input[type="text"],
+#gform_13 textarea,
+#gform_8 input[type="text"],
+#gform_8 textarea,
+#gform_17 input[type="text"],
+#gform_17 textarea,
+#gform_6 input[type="text"],
+#gform_6 textarea,
+#gform_7 input[type="text"],
+#gform_7 textarea,
+#gform_5 input[type="text"],
+#gform_5 textarea,
+#gform_12 input[type="text"],
+#gform_12 textarea,
+#gform_2 input[type="text"],
+#gform_2 textarea {
+  border: 1px solid #ccc;
+}
+#gform_wrapper_18.gform_legacy_markup_wrapper .gsection,
+#gform_wrapper_10.gform_legacy_markup_wrapper .gsection,
+#gform_wrapper_9.gform_legacy_markup_wrapper .gsection,
+#gform_wrapper_13.gform_legacy_markup_wrapper .gsection,
+#gform_wrapper_8.gform_legacy_markup_wrapper .gsection,
+#gform_wrapper_17.gform_legacy_markup_wrapper .gsection,
+#gform_wrapper_6.gform_legacy_markup_wrapper .gsection,
+#gform_wrapper_7.gform_legacy_markup_wrapper .gsection,
+#gform_wrapper_5.gform_legacy_markup_wrapper .gsection,
+#gform_wrapper_17.gform_legacy_markup_wrapper #field_17_16.gfield,
+#gform_wrapper_17.gform_legacy_markup_wrapper #field_17_1.gfield,
+#gform_wrapper_17.gform_legacy_markup_wrapper #field_17_67.gfield,
+#gform_wrapper_17.gform_legacy_markup_wrapper #field_17_65.gfield,
+#gform_wrapper_12.gform_legacy_markup_wrapper #field_12_16.gfield,
+#gform_wrapper_12.gform_legacy_markup_wrapper #field_12_1.gfield,
+#gform_wrapper_12.gform_legacy_markup_wrapper #field_12_68.gfield {
+  border-top: 1px solid #eee;
+  padding: 20px 16px 8px 0 !important;
+  margin: 28px 0 0 0 !important;
+  border-bottom: 0px;
+}
+#gform_wrapper_18.gform_legacy_markup_wrapper #field_18_8.gsection {
+  border-top: 0px;
+}
+#gform_wrapper_18.gform_legacy_markup_wrapper h2.gsection_title,
+#gform_wrapper_10.gform_legacy_markup_wrapper h2.gsection_title,
+#gform_wrapper_9.gform_legacy_markup_wrapper h2.gsection_title,
+#gform_wrapper_13.gform_legacy_markup_wrapper h2.gsection_title,
+#gform_wrapper_8.gform_legacy_markup_wrapper h2.gsection_title,
+#gform_wrapper_17.gform_legacy_markup_wrapper h2.gsection_title,
+#gform_wrapper_6.gform_legacy_markup_wrapper h2.gsection_title,
+#gform_wrapper_7.gform_legacy_markup_wrapper h2.gsection_title,
+#gform_wrapper_5.gform_legacy_markup_wrapper h2.gsection_title,
+#gform_wrapper_12.gform_legacy_markup_wrapper h2.gsection_title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 43px;
+  text-transform: lowercase;
+}
+#gform_wrapper_18.gform_legacy_markup_wrapper h2.gsection_title::first-letter,
+#gform_wrapper_10.gform_legacy_markup_wrapper h2.gsection_title::first-letter,
+#gform_wrapper_9.gform_legacy_markup_wrapper h2.gsection_title::first-letter,
+#gform_wrapper_13.gform_legacy_markup_wrapper h2.gsection_title::first-letter,
+#gform_wrapper_8.gform_legacy_markup_wrapper h2.gsection_title::first-letter,
+#gform_wrapper_17.gform_legacy_markup_wrapper h2.gsection_title::first-letter,
+#gform_wrapper_6.gform_legacy_markup_wrapper h2.gsection_title::first-letter,
+#gform_wrapper_7.gform_legacy_markup_wrapper h2.gsection_title::first-letter,
+#gform_wrapper_5.gform_legacy_markup_wrapper h2.gsection_title::first-letter,
+#gform_wrapper_12.gform_legacy_markup_wrapper h2.gsection_title::first-letter {
+  text-transform: capitalize;
+}
+#gform_18 .gsection_description,
+#gform_10 .gsection_description,
+#gform_9 .gsection_description,
+#gform_13 .gsection_description,
+#gform_8 .gsection_description,
+#gform_17 .gsection_description,
+#gform_6 .gsection_description,
+#gform_7 .gsection_description,
+#gform_5 .gsection_description,
+#gform_12 .gsection_description {
+  line-height: 19px;
+  padding-top: 24px;
+}
+#field_18_37 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: first baseline;
+}
+#field_18_37 .ginput_container {
+  padding-right: 10px;
+}
+#field_18_37 .gfield_label {
+  font-size: 16px;
+}
+#gform_submit_button_18,
+#gform_submit_button_10,
+#gform_submit_button_9,
+#gform_next_button_13_55,
+#gform_previous_button_13_56,
+#gform_next_button_13_56,
+#gform_previous_button_13_57,
+#gform_next_button_13_57,
+#gform_previous_button_13,
+#gform_submit_button_8,
+#gform_submit_button_17,
+#gform_submit_button_6,
+#gform_submit_button_7,
+#gform_submit_button_5,
+#gform_submit_button_12,
+#gform_submit_button_2 {
+  background: #ef538a;
+  border: none;
+  color: #fff;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  font-weight: 900;
+  cursor: pointer;
+  font-size: 19px;
+  font-family: "visby_cfextra_bold" !important;
+  line-height: 27px;
+}
+#gform_submit_button_18:hover,
+#gform_submit_button_10:hover,
+#gform_submit_button_9:hover,
+#gform_submit_button_13:hover,
+#gform_next_button_13_55:hover,
+#gform_previous_button_13_56:hover,
+#gform_next_button_13_56:hover,
+#gform_previous_button_13_57:hover,
+#gform_next_button_13_57:hover,
+#gform_previous_button_13:hover,
+#gform_submit_button_8:hover,
+#gform_submit_button_17:hover,
+#gform_submit_button_6:hover,
+#gform_submit_button_7:hover,
+#gform_submit_button_5:hover,
+#gform_submit_button_12:hover,
+#gform_submit_button_2:hover {
+  background: #1c194f;
+}
+
+#gform_wrapper_10 #field_10_9.field_description_below,
+#gform_wrapper_10 #field_10_13.field_description_below,
+#gform_wrapper_10 #field_10_30.field_description_below,
+#gform_wrapper_9 #field_9_13.field_description_below,
+#gform_wrapper_9 #field_9_30.field_description_below,
+#gform_wrapper_17 .field_description_below p,
+#gform_wrapper_17 #field_17_68.field_description_below,
+#gform_wrapper_17 .gfield_consent_label,
+#gform_wrapper_12 #field_12_81.field_description_below {
+  font-size: 16px;
+}
+#gform_wrapper_13.gform_legacy_markup_wrapper .gf_progressbar_wrapper {
+  margin: 16px 0 16px 0;
+  padding: 16px 0 16px 0;
+}
+.gform_legacy_markup_wrapper div.validation_error {
+  margin-top: 26px;
+}
+#gform_17 #field_17_4 hr,
+#gform_17 #field_17_16 hr,
+#gform_17 #field_17_37 hr,
+#gform_17 #field_17_65 hr,
+#gform_17 #field_17_67 hr,
+#gform_12 #field_12_4 hr,
+#gform_12 #field_12_16 hr,
+#gform_12 #field_12_1 hr,
+#gform_12 #field_12_68 hr,
+#gform_12 #field_12_73 hr,
+#gform_wrapper_12 #field_12_73 {
+  display: none;
+}
+#gform_wrapper_17.gform_wrapper li.gf_list_inline ul.gfield_checkbox li,
+#gform_wrapper_17.gform_wrapper li.gf_list_inline ul.gfield_radio li,
+#gform_wrapper_12.gform_wrapper li.gf_list_inline ul.gfield_checkbox li,
+#gform_wrapper_12.gform_wrapper li.gf_list_inline ul.gfield_radio li {
+  width: 100% !important;
+}
+.gform_legacy_markup_wrapper.gf_browser_gecko select {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 5px 4px !important;
+}
+#gform_wrapper_17.gform_legacy_markup_wrapper h2,
+#gform_wrapper_12.gform_legacy_markup_wrapper h2 {
+  font-weight: 700;
+}
+#gform_wrapper_12 h3 {
+  font-size: 20px;
+  line-height: 30px;
+}
+/* .clsGeneralInform .accordionTxt .elementor-widget-container {
+  margin: 0 !important;
+} */
+
+/* Form page end */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .membershipBenefits .elementor-icon-list-items {
+    width: 100%;
+  }
+  .accordionTxt .elementor-widget-container {
+    width: 100%;
+  }
+  .accordionTxt .ghostbtn {
+    font-size: 14px !important;
+  }
+  .accordionTxt .ghostbtn.mempad {
+    padding: 12px 87px;
+  }
+  .accordionTxt .ghostbtn.mempad1 {
+    padding: 12px 71px;
+  }
+  .membershipBenefits .elementor-icon-list-items .elementor-icon-list-text {
+    font-size: 18px !important;
+  }
+  .clsQuestn ul li {
+    width: 100% !important;
+  }
+  .clsDonate br {
+    display: none;
+  }
+  .clsSummercontent .clsSummerCampListing .clsExperienceList {
+    width: 100% !important;
+  }
+  .clsSummerCampListing .expTle {
+    padding: 70px 0 25px 0px !important;
+  }
+  .clsBoardmember a {
+    width: 100% !important;
+  }
+  .clsListItems ul li {
+    width: 48% !important;
+  }
+  .homeUpcoming
+    .tribe-events-widget-events-list__events
+    .tribe-common-g-row
+    img {
+    bottom: 12px !important;
+  }
+  .clsBgsizesumcamp .elementor-widget-image,
+  .clsBgsizesumcamp .elementor-widget-container,
+  .clsBgsizesumcamp .elementor-image,
+  .clsBgsizesumcamp .elementor-image img {
+    width: 100% !important;
+  }
+  .clsBgsizesumcamp .elementor-element-afa1565 .elementor-widget-wrap {
+    padding: 50px 25px 50px 25px !important;
+  }
+  .clsGradientbg {
+    background: none !important;
+  }
+  .clsGradientbg .clsAdmission {
+    background: #1c194f;
+  }
+  .clsGradientbg .clsHoursvisit {
+    background: #c6e6fa;
+  }
+  .clsDirection {
+    background: #c6e6fa !important;
+  }
+  .clsTransport {
+    background: #1c194f !important;
+  }
+  .slick-dots {
+    display: none !important;
+  }
+  .clsExperienceList .blog-content h2 a,
+  .clsExperienceList .blog-content h2 a span {
+    font-size: 25px !important;
+  }
+  .clsExperienceList .blog-content h2 a img {
+    width: 20% !important;
+    bottom: 5px !important;
+  }
+  .tribe-common--breakpoint-medium.tribe-common .tribe-common-l-container {
+    padding-left: 0px;
+  }
+  .clsClasspage ul.clsDHFilter li,
+  .clsClassesCatFilter ul.clsDHFilter li {
+    margin: 0 0 15px;
+  }
+  .discoveryfirst .discoveryHome::after {
+    background: none;
+  }
+  .clsDiscoveryHomeTitle h3,
+  .clsDiscoveryHomeTitle h3 span {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .clsMobview {
+    display: none !important;
+  }
+  .clsBtnsummer {
+    display: block !important;
+  }
+  .accordionTxt .clsBtnsummer .ghostbtn.padsep {
+    padding: 12px 42px !important;
+  }
+  .accordionTxt .clsBtnsummer .ghostbtn.padsep1 {
+    padding: 12px 31px !important;
+  }
+  .accordionTxt .clsBtnsummer .ghostbtn.padsep2 {
+    padding: 12px 25px !important;
+  }
+  .clsECbtn {
+    display: block !important;
+  }
+    .homeUpcoming .tribe-events-widget-events-list__events .tribe-common-g-row a.clsUpcomingLink{bottom: 10px !important;}
+.clsHeroImage {height: 300px !important;}
+.clsPinkspace .elementor-col-33:nth-child(1){margin-right: 0px !important;}
+.clsPinkspace .elementor-col-33:nth-child(2){margin-right: 0px !important;margin-left: 0px !important;}
+.clsPinkspace .elementor-col-33:nth-child(3){margin-left: 0px !important;}
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .clsListItems ul li {
+    width: 30% !important;
+    height: 95px !important;
+  }
+  .homeUpcoming
+    .tribe-events-widget-events-list__events
+    .tribe-common-g-row
+    img {
+    bottom: 12px !important;
+  }
+  .clsBgsizesumcamp .elementor-element-afa1565 .elementor-widget-wrap {
+    padding: 50px 25px 50px 25px !important;
+  }
+  .clsMobview {
+    display: none !important;
+  }
+  .clsECbtn {
+    display: block !important;
+  }
+    .homeUpcoming .tribe-events-widget-events-list__events .tribe-common-g-row a.clsUpcomingLink{bottom: 10px !important;}
+
+}
+
+@media (min-width: 1080px) and (max-width: 1280px) {
+.homeUpcoming .tribe-events-widget-events-list__events .tribe-common-g-row a.clsUpcomingLink{bottom: -50px !important;}	
+}	
+
+@media (min-width: 1500px) {
+  .clsFirst p:nth-child(1) {
+    width: 63% !important;
+  }
+  .clsSecond p:nth-child(1) {
+    width: 38% !important;
+  }
+  .clsThird p:nth-child(1) {
+    width: 46% !important;
+  }
+}
+
+@media (min-width: 768px) {
+  a[href^="tel"] {
+    pointer-events: none;
+    text-decoration: none !important;
+  }
+}
+
+@media (min-width: 1080px) and (max-width: 1280px) {
+  .clsListItems ul li {
+    width: 30% !important;
+    height: 95px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1500px) {
+  .clsContainer > .elementor-container,
+  .single .clsSingleFouth,
+  .single .clsSingleThrid,
+  .elementor-sticky > .elementor-container,
+  .clsSummercamp > .elementor-container {
+    width: 85%;
+  }
+  .clsContainer1 > .elementor-container {
+    width: 90%;
+  }
+  .clsGenerationsupport .generationSpace .elementor-widget-wrap {
+    padding-left: 15% !important;
+  }
+  .clsAge.active2 .clsExpTxt,
+  .clsAge.active3 .clsExpTxt,
+  .clsAge.active4 .clsExpTxt,
+  .clsAge.active5 .clsExpTxt,
+  .clsAge.active6 .clsExpTxt {
+    font-size: 18px !important;
+    line-height: 25px !important;
+  }
+  .tribe-events-single {
+    width: 85%;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .homeUpcoming h3.tribe-events-widget-events-list__event-title a {
+    font-size: 40px !important;
+    line-height: 43px !important;
+  }
+  .clsBgsizesumcamp {
+    background-size: 43.33% auto !important;
+  }
+  .breadcrumb .elementor-container {
+    width: 85%;
+  }
+  .clsjobopportunity .post-listing,
+  .volunterpostn .post-listing {
+    width: auto !important;
+  }
+  .clsprivacy {
+    width: 85%;
+  }
+  .clsBgsize.clsplannedgiving,
+  .clsBgsizesmall.clsplannedgiving {
+    background-size: contain;
+  }
+  .clsBgsize.clsSponser .elementor-widget-wrap {
+    padding: 30px 10px 30px 45px;
+  }
+  .clsAutomation .elementor-element.elementor-element-c4bc819,
+  .clsAutomation .elementor-element.elementor-element-240cdbd2 {
+    width: 60% !important;
+  }
+  .clsGalainformation .elementor-widget-image,
+  .clsGalainformation .elementor-widget-container,
+  .clsGalainformation .elementor-image,
+  .clsGalainformation .elementor-image img {
+    height: 100%;
+  }
+  .clsExperienceList .blog-content h2 a,
+  .clsExperienceList .blog-content h2 a span {
+    font-size: 22px;
+    max-width: 70%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1500px) {
+  .clsRental .elementor-widget-wrap {
+    padding: 0px 50px 0px 0px !important;
+  }
+  .DWH_categories-experiments-activities {
+    background-size: 40%, 40% !important;
+  }
+  /* .clsSingleExperience .generationSpace .elementor-widget-wrap{padding-left: 23% !important;} */
+}
+
+@media screen and (min-width: 1921px) and (max-width: 2125px) {
+  .clsGenerationsupport .generationSpace .elementor-widget-wrap {
+    padding-left: 27% !important;
+  }
+  .clsHoursvisit .elementor-widget-wrap {
+    padding-left: 90px !important;
+  }
+}
+@media screen and (min-width: 2126px) and (max-width: 2378px) {
+  .clsHoursvisit .elementor-widget-wrap {
+    padding-left: 120px !important;
+  }
+}
+
+@media screen and (min-width: 2379px) and (max-width: 2800px) {
+  .clsHoursvisit .elementor-widget-wrap {
+    padding-left: 180px !important;
+  }
+}
+
+@media screen and (min-width: 3171px) and (max-width: 3500px) {
+  .clsHoursvisit .elementor-widget-wrap {
+    padding-left: 250px !important;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1200px) {
+  .clsSponsordiv .elementor-widget-wrap {
+    padding: 10px 10px 10px 45px !important;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+  .clsSponsordiv .elementor-widget-wrap {
+    padding: 60px 10px 60px 45px !important;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1400px) {
+  .page-id-164 .container {
+    width: 85%;
+  }
+  .clsRegisterbtn {
+    font-size: 17px !important;
+    padding: 10px 15px !important;
+  }
+  .clsECbtn p:first-child {
+    margin-right: 10px !important;
+  }
+  .clsBgsize {
+    background-size: 72% auto !important;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1500px) {
+  .page-id-164 .container {
+    width: 85%;
+  }
+  .clsListItems ul li {
+    height: 100px !important;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1700px) {
+  .page-id-164 .container {
+    width: 90%;
+  }
+  .elementor-location-footer::before {
+    background-size: 100%;
+  }
+}
+
+@media (min-width: 1700px) and (max-width: 1800px) {
+  .page-id-164 .container {
+    width: 82%;
+  }
+  .elementor-location-footer::before {
+    background-size: 100%;
+  }
+}
+
+.clsFont p {
+  font-family: "BrandonText-Regular" !important;
+}
+.membershipBenefits .elementor-icon-list-items {
+  width: 75%;
+  margin: 0 auto !important;
+}
+.accordionTxt .elementor-widget-container {
+  width: 80%;
+  margin: 0 auto !important;
+}
+.clsTicketfont p,
+.clsTicketfont p a {
+  font-family: "visby_cfextra_bold" !important;
+}
+.clsGalavendor ul li .elementor-icon-list-text {
+  font-family: "BrandonText-Regular" !important;
+}
+.single.single-volunteer h3,
+.single.single-job_opportunities h3 {
+  color: #ef548a;
+  font-size: 30px !important;
+  padding: 25px 0px 15px;
+}
+.single.single-volunteer .container,
+.single.single-job_opportunities .container {
+  max-width: 1440px;
+  width: 83.5%;
+}
+.single.single-volunteer h1,
+.single.single-job_opportunities h1 {
+  font-size: 50px !important;
+}
+.clsMargn {
+  margin: 0 auto;
+}
+
+.clsSummerCampListing {
+  margin-bottom: 50px;
+}
+.clsSummerCampListing .expTle {
+  padding: 70px 0 25px 15px;
+}
+.clsSummerCampListing .expBg1 h2 {
+  color: #fff !important;
+}
+.clsSummerCampListing .expBg3 h2 {
+  color: #fff !important;
+}
+.clsSctitle {
+  font-size: 32px !important;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+.clsScpdf {
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.clsScpdf:hover {
+  text-decoration: none !important;
+}
+.clsScpdf a:hover {
+  text-decoration: none !important;
+  color: #ef538a;
+}
+
+.clsSummerCampListing .clsExperienceList {
+  padding: 25px 30px 25px 30px;
+}
+.clsSummerCampListing .clsExperienceList .blog-content h2 {
+  height: auto !important;
+  padding: 0px;
+  font-size: 28px !important;
+  font-family: "visby_cfdemi_bold" !important;
+}
+.clsSummer_camp_week,
+.clsSummer_camp_grade,
+.clsScdescription {
+  color: #1c194f;
+  font-size: 19px;
+  line-height: 26px;
+}
+.p1 {
+  color: #1c194f;
+}
+.clsSummerCampListing .expCon {
+  padding-bottom: 70px;
+}
+.clsSummercamp .elementor-align-left .elementor-button {
+  width: 100%;
+}
+.clsSingleImage .slick-track,
+.clsSingleImage .slick-slide {
+  width: 100% !important;
+}
+/* .clsSingleExperience .generationSpace .elementor-widget-wrap {
+  padding-left: 36%;
+} */
+.clsAge.active1 .clsExpTxt {
+  min-height: 150px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clsAge.active2 .clsExpTxt,
+.clsAge.active3 .clsExpTxt,
+.clsAge.active4 .clsExpTxt,
+.clsAge.active5 .clsExpTxt,
+.clsAge.active6 .clsExpTxt {
+  font-size: 21px;
+  min-height: 150px;
+  line-height: 30px;
+  padding: 20px;
+}
+.clsAge.active7 .clsExpTxt {
+  font-size: 19px;
+  min-height: 150px;
+  line-height: 30px;
+  padding: 20px;
+}
+.clsSingleExperience .clsLocation .clsExpTxt,
+.clsSingleExperience .clsAdmissions .clsExpTxt {
+  min-height: 150px;
+  padding: 20px;
+}
+.tribe-common--breakpoint-full.tribe-events
+  .tribe-events-c-top-bar__datepicker-desktop {
+  font-family: "visby_cfextra_bold" !important;
+  color: #1c194f;
+}
+.tribe-events .tribe-events-c-events-bar .tribe-common-form-control-text__input,
+.tribe-events
+  .tribe-events-c-view-selector__list-item--active
+  .tribe-events-c-view-selector__list-item-text,
+.tribe-common--breakpoint-medium.tribe-common .tribe-common-c-btn-border-small,
+.tribe-common--breakpoint-medium.tribe-common
+  a.tribe-common-c-btn-border-small {
+  font-family: "BrandonText-Regular";
+}
+.tribe-common--breakpoint-medium.tribe-events
+  .tribe-common-c-btn.tribe-events-c-search__button,
+.tribe-common .tribe-common-c-btn-border {
+  font-size: 19px;
+  font-weight: 900;
+  text-transform: capitalize;
+  line-height: 27px;
+  background: #ef538a;
+  padding: 10px 25px !important;
+  color: #fff !important;
+  font-family: "visby_cfextra_bold" !important;
+  border-radius: 0px;
+}
+.tribe-common--breakpoint-medium.tribe-events
+  .tribe-common-c-btn.tribe-events-c-search__button:hover,
+.tribe-common .tribe-common-c-btn-border:hover {
+  background: #1c194f !important;
+  border-color: #1c194f;
+}
+.tribe-events
+  .tribe-events-c-subscribe-dropdown
+  .tribe-events-c-subscribe-dropdown__button-text:hover,
+.tribe-events
+  .tribe-events-c-subscribe-dropdown
+  .tribe-events-c-subscribe-dropdown__button-text {
+  color: #fff !important;
+}
+.tribe-common-c-svgicon {
+  color: #fff !important;
+}
+.tribe-events
+  .tribe-events-c-view-selector__list-item--active
+  .tribe-events-c-view-selector__list-item-text,
+.tribe-events-content ol,
+.tribe-events-content p,
+.tribe-events-content ul {
+  color: #1c194f;
+}
+.tribe-common--breakpoint-medium.tribe-events
+  .tribe-events-c-view-selector--tabs
+  .tribe-events-c-view-selector__list-item--active
+  .tribe-events-c-view-selector__list-item-link::after,
+.tribe-common--breakpoint-medium.tribe-events
+  .tribe-events-calendar-month__day:hover::after {
+  background: #ef548a !important;
+}
+.tribe-common--breakpoint-medium.tribe-events
+  .tribe-events-c-view-selector__list-item:hover {
+  background-color: transparent;
+}
+.tribe-events .tribe-events-calendar-month__calendar-event--featured::before {
+  background-color: #ef538a;
+}
+.tribe-events
+  .tribe-events-c-subscribe-dropdown
+  .tribe-events-c-subscribe-dropdown__button.tribe-events-c-subscribe-dropdown__button--active {
+  background: #1c194f !important;
+  border-color: #1c194f;
+}
+.single h1.tribe-events-single-event-title {
+  font-size: 50px !important;
+  line-height: 53px !important;
+}
+.tribe-events-event-image img {
+  max-width: 100%;
+  object-fit: contain;
+  object-position: top;
+  height:auto;
+}
+.tribe-event-date-start,
+.tribe-event-time,
+.tribe-events-cost, 
+.tribe-events-schedule h2, 
+.tribe-event-date-end {
+  font-family: "visby_cfmedium" !important;
+  font-size: 21px !important;
+}
+.wsx-featuredImage-description .tribe-events.tribe-common {
+  padding-left: 0px;
+}
+.single-tribe_events
+  .tribe-events
+  .tribe-events-c-subscribe-dropdown__container,
+.tribe-common-c-btn-border.tribe-events-c-subscribe-dropdown__button {
+  width: 300px;
+}
+.tribe-events
+  .tribe-events-c-subscribe-dropdown
+  .tribe-events-c-subscribe-dropdown__button:focus,
+.tribe-events
+  .tribe-events-c-subscribe-dropdown
+  .tribe-events-c-subscribe-dropdown__button:focus-within {
+  background: #1c194f !important;
+  border-color: #1c194f;
+}
+.tribe-events-event-meta.primary,
+.tribe-events-event-meta.secondary,
+.tribe-events-meta-group.tribe-events-meta-group-details,
+.tribe-events-meta-group.tribe-events-meta-group-organizer {
+  width: 100%;
+  flex: inherit;
+}
+.tribe-events-meta-group,
+.tribe-events-meta-group.tribe-events-meta-group-venue {
+  padding-top: 0px;
+}
+.tribe-events.tribe-common {
+  margin-bottom: 30px;
+}
+.clsSupportplanned .generationSpace .elementor-widget-wrap {
+  padding-left: 36% !important;
+}
+.tribe-events-schedule .tribe-events-cost {
+  color: #ef538a;
+  font-size: 18px;
+}
+.wsx-featuredImage-description {
+  display: flex;
+}
+.clsImage-btn {
+  width: 50%;
+}
+.wsx-description-btn {
+  width: 50%;
+  margin-left: 30px;
+}
+.tribe-events-event-meta dd,
+.tribe-events-event-meta dt {
+  display: inline-block;
+}
+.tribe-events-event-meta dd {
+  margin-right: 30px;
+  font-weight: 600;
+  font-size: 19px;
+  color: #1c194f;
+}
+.tribe-events-event-meta a,
+.tribe-events-event-meta a:visited,
+.tribe-events-meta-group .tribe-events-single-section-title {
+  color: #1c194f;
+}
+.tribe-events-event-meta a:hover {
+  color: #ef538a;
+  text-decoration: none;
+}
+.tribe-events-meta-group.tribe-events-meta-group-details,
+.tribe-events-meta-group.tribe-events-meta-group-organizer {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.tribe-events-meta-group.tribe-events-meta-group-gmap {
+  border-top: 0px;
+}
+.tribe-events-back {
+  display: none;
+}
+.tribe-events-meta-group .tribe-events-single-section-title,
+.tribe-events-event-meta dl {
+  line-height: 24px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.tribe-events-meta-group-venue .tribe-events-single-section-title {
+  margin-bottom: 10px;
+}
+.clsSummercontent .container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 85%;
+}
+.clsSummercontent .clsSummerCampListing .clsExperienceList {
+  padding: 25px 30px 25px 30px;
+  margin: 0 1% 30px;
+}
+.clsListItems ul {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.clsListItems ul li {
+  list-style: none;
+  width: 23%;
+  border: 1px solid #eee;
+  margin: 1%;
+  padding: 15px;
+  height: 78px;
+  align-items: center;
+  display: flex;
+}
+.clsBoardlist .elementor-icon-list-items .elementor-icon-list-text {
+  font-family: "BrandonText-Regular" !important;
+}
+.clsGenerationsupport .generationSpace .elementor-widget-wrap {
+  padding-left: 23% !important;
+}
+.clsUpcomeevents .elementor-row {
+  margin: 0 10px;
+}
+.homeUpcoming .tribe-events-widget-events-list__events .tribe-common-g-row img {
+  position: absolute;
+  bottom: -12px;
+  display: none;
+}
+.homeUpcoming
+  .tribe-events-widget-events-list__events
+  .tribe-common-g-row
+  a.clsUpcomingLink {
+  background: url(../../../uploads/2022/08/Group-10.svg);
+  background-repeat: no-repeat;
+  width: 83px;
+  height: 50px;
+  position: absolute;
+  bottom: -12px;
+}
+.homeUpcoming
+  .tribe-events-widget-events-list__events
+  .tribe-common-g-row:hover
+  a.clsUpcomingLink {
+  background: url(../../../uploads/2022/08/Group-hover.svg);
+  width: 83px;
+  height: 50px;
+}
+.clsFloorfont .elementor-tabs-wrapper a {
+  font-family: "visby_cfextra_bold" !important;
+}
+.clsFloorfont .elementor-widget-tabs .elementor-tab-content {
+  padding: 0px;
+}
+.clsAnimationtop .contain h3 a {
+  text-decoration: underline !important;
+}
+.breadcrumb_container a:hover {
+  color: #ef538a !important;
+}
+.clsBgsizesupport {
+  background-size: 45% auto;
+}
+.clsBgsizeequity {
+  background-size: 50% auto;
+}
+.clsBgsizehistory {
+  background-size: 63% auto;
+}
+.clsBgsize {
+  background-size: 65% auto;
+}
+.clsBgsizepercent {
+  background-size: 65% 100%;
+}
+.clsBgsizesmall {
+  background-size: 35% auto;
+}
+.clsBgsizesumcamp {
+  background-size: 33.33% auto;
+}
+.clsBgsizesmall .parkingTxt h5 {
+  color: #fff;
+}
+.clsGradientbg {
+  background: linear-gradient(90deg, #1c194f 65%, #c1e0f4 65%);
+}
+.elementor-sticky--effects .elementor-widget-image a img[src$=".svg"] {
+  width: 80% !important;
+}
+.elementor-sticky--effects .elementor-widget-container {
+  padding: 20px 0px 0px 0px !important;
+}
+.elementor-sticky--effects .headerTopmenu {
+  display: none;
+}
+.elementor-sticky--effects .elementor-widget-image .elementor-widget-container {
+  padding: 0px !important;
+}
+.quotes {
+  display: none;
+}
+.clsAnimationtop .contain h3 {
+  font-family: "BrandonText-Regular" !important;
+  font-size: 19px !important;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #1c194f !important;
+}
+.clsAnimationtop:hover .contain h3,
+.clsAnimationtop:hover .contain h3 a {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+.clsScrolltxt {
+  font-family: "visby_cfextra_bold" !important;
+  line-height: 45px;
+}
+.clsScrolltxt strong a {
+  color: #ef538a;
+  text-transform: uppercase;
+  font-family: "visby_cfextra_bold" !important;
+}
+.clsAnnualgalabtn::before {
+  content: "";
+  position: absolute;
+  background: url(../images/Polygon-1-5.svg);
+  width: 23px;
+  height: 46px;
+  top: 0;
+  left: 0;
+}
+.tribe-common--breakpoint-medium.tribe-events-widget
+  .tribe-events-widget-events-list__event-title {
+  padding-bottom: 20px;
+}
+.clsParkingtable table {
+  font-weight: 600;
+}
+.clsdescription hr {
+  margin: 0px 0px 20px;
+}
+.single-classes h3 {
+  color: #ef548a !important;
+}
+.single .container ul.clsTopspace {
+  padding-top: 10px;
+}
+.clsFieldtripsbtn .ghostbtn,
+.clsSummerCampPost .btn,
+.accordionTxt .ghostbtn,
+.clsDonate .ghostbtn,
+.clsDonatebtn {
+  font-family: "visby_cfextra_bold" !important;
+  font-size: 19px !important;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 43px;
+  background-color: #ef538a;
+  padding: 10px 25px;
+  color: #fff;
+}
+.clsDonate .ghostbtn {
+  text-decoration: none !important;
+}
+.clsPrice {
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+.clsMailLink {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.clsMailLink:hover {
+  color: #ef538a;
+  text-decoration: none;
+}
+
+.clsprivacy {
+  padding: 0px 10px;
+  color: #1c194f;
+}
+.clsFieldtripsbtn .ghostbtn:hover,
+.clsSummerCampPost .btn:hover {
+  background-color: #1c194f;
+}
+.Bannercontainer a:hover,
+.tribe-events-widget-events-list__event-datetime {
+  color: #fff !important;
+}
+.joinForm form .gray-button:hover {
+  background: #d0e8f7;
+}
+.clsTicketfont p a:hover {
+  text-decoration: none !important;
+}
+.tribe-common .tribe-common-anchor-thin {
+  border-bottom: 0px solid transparent;
+}
+.tribe-common .tribe-common-anchor-thin:active,
+.tribe-common .tribe-common-anchor-thin:focus,
+.tribe-common .tribe-common-anchor-thin:hover {
+  border-bottom: 0px solid transparent;
+}
+.clsFormtop {
+  font-weight: 600;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.clsFormbtm {
+  padding-top: 15px;
+}
+.clsGalainformation .elementor-col-33 {
+  width: 33.33%;
+}
+.clsGalainformation .elementor-widget-image,
+.clsGalainformation .elementor-widget-container,
+.clsGalainformation .elementor-image,
+.clsGalainformation .elementor-image img {
+  height: 100%;
+}
+.clsEcology .elementor-post__title a {
+  font-size: 28px;
+  letter-spacing: -1px;
+  line-height: 35px;
+  font-family: "visby_cfextra_bold" !important;
+  text-decoration: none;
+  color: #1c194f !important;
+  text-transform: capitalize;
+}
+.clsEcology .elementor-post__excerpt p {
+  color: #1c194f !important;
+  font-size: 19px !important;
+  font-weight: 400 !important;
+  line-height: 26px !important;
+  font-family: "BrandonText-Regular" !important;
+}
+.clsEcology .elementor-post__read-more {
+  color: #1c194f !important;
+  font-size: 19px !important;
+  font-weight: 400 !important;
+  line-height: 26px;
+  font-family: "BrandonText-Regular" !important;
+  text-decoration: underline;
+}
+.clsEcology .elementor-post__read-more:hover {
+  text-decoration: none;
+}
+.tribe-events-sub-nav {
+  display: none !important;
+}
+.tribe-events-single-section table td {
+  font-weight: 600;
+  font-size: 19px;
+  color: #1c194f;
+}
+.tribe-events-single-section table td.tribe-events-start-date-label,
+.tribe-events-single-section table td.tribe-events-start-time-label,
+.tribe-events-single-section table td.tribe-events-event-cost-label,
+.tribe-events-single-section table td.tribe-events-event-categories-label,
+.tribe-events-single-section table td.tribe-events-event-url-label {
+  font-weight: 400;
+  width: 50%;
+  font-size: 19px;
+  color: #1c194f;
+}
+
+/*************** PRESS ROOM START ************/
+
+.clsPress_room_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.clsPress_room {
+  padding: 25px;
+  border: 0.5px solid #ddd;
+  margin: -1px;
+  width: 33.3%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background: #f5f5f5;
+  flex-wrap: wrap;
+}
+.clsPress_date {
+  font-size: 16px;
+  line-height: normal;
+  width: 100%;
+  font-weight: bold;
+  color: #1c194f;
+}
+.clsPress_heading {
+  line-height: normal;
+  padding-top: 5px;
+}
+.clsPress_heading a {
+  text-decoration: underline;
+  font-size: 19px;
+}
+.clsPress_heading a:hover {
+  text-decoration: underline;
+  color: #ef548a;
+}
+.clsMediaList ul li a:hover {
+  text-decoration: none !important;
+}
+/* .clsMediaStory{
+  margin-top: 0!important;
+} */
+
+/*************** PRESS ROOM END ************/
+
+.clsSummerCampListing .clsExperienceList .blog-content h2,
+.clsSummer_camp_week,
+.clsSummer_camp_grade,
+.clsSummer_interests {
+  margin-bottom: 15px;
+}
+.clsScdescription {
+  padding-right: 15px;
+  margin-bottom: 25px;
+}
+
+.single-volunteer .container p,
+.single-job_opportunities .container p {
+  font-size: 19px !important;
+}
+.single-volunteer .container li,
+.single-job_opportunities .container li {
+  font-size: 19px !important;
+}
+.clsArchieveList a {
+  font-size: 19px;
+}
+.clsEmail:hover {
+  color: #ef538a;
+}
+.volunterpostn .post-listing li::marker,
+.clsjobopportunity .post-listing li::marker {
+  font-size: 19px !important;
+}
+.clsDiscoveryHomeList .clsDiscoveryHomeListDetails:hover {
+  background: #ef538a;
+  color: #fff;
+}
+/****** Accordion Button ******/
+.accordionTxt .ghostbtn {
+  padding: 10px 25px !important;
+  font-size: 19px !important;
+  font-weight: 900 !important;
+}
+.clsButton-PDF {
+  margin-bottom: 20px;
+}
+.clsScInterests {
+  margin-right: 6px;
+  padding: 4px 8px;
+  font-size: 14px;
+  border-radius: 4px;
+  background-color: #c1e0f4 !important;
+  border: 1px solid #abd0e8;
+  display: inline-block;
+  line-height: normal;
+}
+
+@media (min-width: 768px) {
+  .single.single-volunteer h1 {
+    font-size: 50px !important;
+    padding-bottom: 25px;
+    line-height: 53px !important;
+  }
+  .single.single-job_opportunities h1 {
+    font-size: 50px !important;
+    padding-bottom: 0px;
+    line-height: 53px !important;
+  }
+  .single.single-volunteer h3,
+  .single.single-job_opportunities h3 {
+    font-size: 20px !important;
+    padding: 20px 0px 0px;
+  }
+  .clsClasspage .clsDiscoveryHomeListDetails {
+    padding: 25px;
+    text-align: left;
+  }
+  .clsSummerCampPost .btn {
+    font-size: 16px;
+  }
+}
+@media (max-width: 425px) {
+  .clsPress_room {
+    width: 100% !important;
+    margin-bottom: 20px !important;
+  }
+  .single.single-volunteer h1,
+  .single.single-job_opportunities h1 {
+    font-size: 30px !important;
+    padding-bottom: 25px;
+  }
+  .single.single-volunteer h3,
+  .single.single-job_opportunities h3 {
+    font-size: 20px !important;
+    padding: 25px 0px 10px;
+  }
+  .clsSummerCamp1.gallery,
+  .clsSummerCamp2.gallery,
+  .clsSummerCamp3.gallery {
+    column-count: 1 !important;
+  }
+  .clsSummerCampPost .btn {
+    font-size: 14px !important;
+  }
+  .clsAccordionMail {
+    overflow-wrap: break-word;
+  }
+  .clsDwhViewAll {
+    font-size: 17px !important;
+    width: 160px !important;
+    line-height: 27px !important;
+    margin: 10px 0px 0px 0px !important;
+    padding: 10px 25px !important;
+  }
+}
+
+.clsVolunteer a {
+  font-weight: bold;
+  text-decoration: underline !important;
+}
+.clsVolunteer a:hover {
+  color: #ef548a !important;
+  text-decoration: none !important;
+}
+
+.tableadinssion table,
+.clsParkingtable table {
+  border-collapse: collapse;
+}
+.tableadinssion table {
+  text-align: left;
+}
+
+/****** Summer Camp Post *****/
+
+.clsScinnerlink {
+  text-decoration: underline !important;
+}
+.clsScinnerlink:hover {
+  text-decoration: none !important;
+  color: #ef538a;
+}
+.gallery-item {
+  break-inside: avoid;
+}
+
+.accordionTxt svg {
+  position: relative;
+  top: 2px;
+}
+
+/* .accordionTxt.clsMemberdisnt svg {
+  top: 8px;
+}  */
+
+.accordionTxt .elementor-tab-title {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.tribe-events
+  .tribe-events-c-subscribe-dropdown
+  .tribe-events-c-subscribe-dropdown__button-text {
+  text-transform: capitalize;
+}
+.clsSumbtn .elementor-button-text {
+  font-family: "visby_cfextra_bold" !important;
+}
+.accordionTxt .ghostbtn.register {
+  padding: 12px 25px !important;
+}
+.clsSummerCamp1.gallery,
+.clsSummerCamp2.gallery,
+.clsSummerCamp3.gallery {
+  margin: 0 auto;
+  column-gap: 25px;
+  column-count: 2;
+}
+
+.clsSingleExperience .clsSingleThrid.clsContent {
+  padding-top: 0px;
+}
+.clsSingleExperience .clsAdditionalContent h3 {
+  font-size: 40px !important;
+  line-height: 43px;
+  text-align: center;
+  text-transform: lowercase;
+}
+.clsSingleExperience .clsAdditionalContent h3::first-letter {
+  text-transform: capitalize;
+}
+.clsSingleExperience .clsAdditionalContent h5 {
+  font-size: 28px;
+  padding-bottom: 5px;
+  padding-top: 25px;
+  line-height: 26px;
+  text-transform: lowercase;
+}
+.clsSingleExperience .clsAdditionalContent h5::first-letter {
+  text-transform: capitalize;
+}
+.clsDesign h4 {
+  font-size: 32px !important;
+  padding-bottom: 20px;
+}
+.clsFirst,
+.clsSecond {
+  margin-bottom: 30px;
+}
+.clsFirst,
+.clsSecond,
+.clsThird {
+  display: flex;
+}
+.clsFirst p:nth-child(1) {
+  width: 100%;
+}
+.clsFirst p:nth-child(2),
+.clsSecond p:nth-child(2),
+.clsThird p:nth-child(2) {
+  padding-left: 30px;
+}
+.clsSecond p:nth-child(1) {
+  width: 60%;
+}
+.clsThird p:nth-child(1) {
+  width: 73%;
+}
+.clsFoamlist a,
+.clsMemberdisnt a.clsLink,
+.clsGroupaccordion a.clsLink,
+.clsContactdetail a.clsLink,
+.clsContactdetail1 a.clsLink {
+  text-decoration: underline !important;
+}
+.clsFoamlist a:hover,
+.clsResource a:hover,
+.clsMemberdisnt a.clsLink:hover,
+.clsGroupaccordion a.clsLink:hover,
+.clsContactdetail a.clsLink:hover,
+.clsContactdetail1 a.clsLink:hover {
+  color: #ef548a;
+}
+.clsMemberdisnt a.clsLink:hover,
+.clsGroupaccordion a.clsLink:hover,
+.clsContactdetail a.clsLink:hover,
+.clsContactdetail1 a.clsLink:hover {
+  text-decoration: none !important;
+}
+.clsFoamlist li {
+  padding-bottom: 15px;
+}
+.clsDiscoveryHomeList .clsDiscoveryHomeListDetails:hover .clsClassesTitle h3 {
+  color: #fff;
+}
+.clsGalainform path {
+  fill: #1c194f;
+  color: #1c194f;
+}
+.clsPadtop {
+  padding-top: 20px;
+}
+.clsGroupvis h3 {
+  color: #ef548a !important;
+  font-weight: 700 !important;
+  text-transform: none !important;
+  line-height: 26px !important;
+  font-size: 22px !important;
+}
+.tribe-events
+  .tribe-events-c-events-bar
+  .tribe-common-form-control-text__input {
+  font-size: 16px;
+}
+.tribe-events-calendar-month__calendar-event-datetime,
+.tribe-common--breakpoint-medium.tribe-common a.tribe-common-c-btn-border-small,
+.tribe-common--breakpoint-medium.tribe-events
+  .tribe-events-c-view-selector--tabs
+  .tribe-events-c-view-selector__list-item-link,
+.tribe-events
+  .tribe-events-c-view-selector__list-item--active
+  .tribe-events-c-view-selector__list-item-text {
+  font-size: 16px !important;
+  color: #1c194f !important;
+}
+.tribe-events .tribe-events-calendar-month__calendar-event-title-link {
+  font-size: 19px;
+  color: #1c194f !important;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.tribe-events .tribe-events-calendar-month__calendar-event--featured::before {
+  background-color: #fff;
+}
+.tribe-common--breakpoint-medium.tribe-common
+  a.tribe-common-c-btn-border-small {
+  font-weight: 600;
+}
+.tribe-common--breakpoint-medium.tribe-common
+  a.tribe-common-c-btn-border-small:hover {
+  color: #ffffff !important;
+  background: #ef548a;
+}
+.tribe-events-content p {
+  font-size: 19px;
+}
+.clsGroupvis .elementor-element-d434ffa.elementor-widget {
+  margin-bottom: 7px;
+}
+.clsContactdetail1.elementor-widget-text-editor .elementor-widget-container p {
+  padding: 0 0 10px !important;
+}
+.tribe-events-calendar-month__calendar-event-datetime-featured-icon,
+.tribe-events-calendar-month__calendar-event-tooltip-datetime-featured-icon {
+  display: none !important;
+}
+.tribe-events-meta-group .tribe-events-single-section-title {
+  color: #ef548a;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.tooltipster-box .tribe-event-date-start,
+.tooltipster-box .tribe-event-time {
+  font-size: 16px;
+  color: #1c194f;
+}
+.tooltipster-box
+  .tribe-events-calendar-month__calendar-event-tooltip-title-link {
+  font-size: 19px;
+  color: #1c194f !important;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.tooltipster-box .tribe-events-c-small-cta__price {
+  color: #ef548a;
+  font-weight: 600;
+}
+.tribe-events-calendar-month__day--past
+  .tribe-events-calendar-month__day-date-daynum,
+.tribe-events
+  .tribe-events-calendar-month__day--past
+  .tribe-events-calendar-month__day-date-link,
+.tribe-events
+  .tribe-events-calendar-month__day--past
+  .tribe-events-calendar-month__calendar-event-datetime,
+.tribe-events
+  .tribe-events-calendar-month__day--past
+  .tribe-events-calendar-month__calendar-event-title-link {
+  color: #bbbbbb !important;
+}
+.tribe-events-calendar-month__day.tribe-events-calendar-month__day--current::after {
+  background: #ef548a !important;
+}
+.tribe-events
+  .tribe-events-calendar-month__day--current
+  .tribe-events-calendar-month__day-date-daynum {
+  color: #ef548a;
+}
+.clsExperienceList .blog-content h2 img,
+.clsDiscoveryHomeListDetails .clsDiscoveryHomeTitle h2 img {
+  display: none !important;
+}
+.clsExperienceList .blog-content h4 img,
+.clsDiscoveryHomeListDetails .clsDiscoveryHomeTitle h4 img {
+  display: none !important;
+}
+.clsExperienceList .blog-content h2.clsExpTitleReadmore {
+  background: url(../../../uploads/2022/09/Exptile.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
+  right: 5px;
+}
+.clsExperienceList .blog-content h4.clsExpTitleReadmore {
+  background: url(../../../uploads/2022/09/Exptile.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
+  right: 15px;
+}
+.clsExperienceList:hover .blog-content h2.clsExpTitleReadmore {
+  background: url(../../../uploads/2022/09/Exptile-hover.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.clsExperienceList:hover .blog-content h4.clsExpTitleReadmore {
+  background: url(../../../uploads/2022/09/Exptile-hover.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.clsDiscoveryHomeListDetails h2,
+.clsDiscoveryHomeListDetails h4 {
+  padding: 15px 15px 15px 35px;
+  font-family: "visby_cfextra_bold" !important;
+  letter-spacing: 0px;
+  font-size: 28px !important;
+  min-height: 155px;
+  line-height: 28px !important;
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background: url(../../../uploads/2022/09/Exptile.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
+  right: 15px;
+}
+.clsDiscoveryHomeListDetails:hover h2,
+.clsDiscoveryHomeListDetails:hover h4 {
+  background: url(../../../uploads/2022/09/Dis-hover.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.clsDiscoveryHomeListDetails h2 span,
+.clsDiscoveryHomeListDetails h4 span {
+  letter-spacing: 0px;
+  font-family: "visby_cfextra_bold" !important;
+  max-width: 80%;
+  text-decoration: none;
+  display: inline-block;
+  text-align: left;
+  text-transform: capitalize !important;
+}
+.clsDiscoveryHomeListDetails h4 span::first-letter {
+  text-transform: capitalize;
+}
+.clsDiscoveryHomeListDetails:hover h2 span,
+.clsDiscoveryHomeListDetails:hover h4 span {
+  color: #ffffff;
+}
+.clsDiscoveryHomeListDetails .clsDiscoveryHomeImage img {
+  height: 180px !important;
+  object-position: top;
+  object-fit: cover;
+}
+.clsTextLink {
+  text-decoration: underline;
+}
+.clsTextLink:hover {
+  text-decoration: none;
+}
+.clsRelatedExperienceList .blog-content h2 {
+  background: url(../../../uploads/2022/09/Exptile.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
+  right: 5px;
+}
+.clsRelatedExperienceList .blog-content:hover h2 {
+  background: url(../../../uploads/2022/09/Exptile-hover.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.DWH_categories-experiments-activities,
+.DWH_categories-weekly-theme,
+.DWH_categories-additional-resources {
+  background: url(../images/half-circle-2.svg),
+    url(../../../uploads/2022/08/Half-moon.png);
+  background-position: top left, top right;
+  background-repeat: no-repeat;
+}
+.clsCommunity,
+.clsCommunity .elementor-widget-container,
+.clsCommunity .elementor-image,
+.clsCommunity .elementor-image img {
+  height: 100%;
+}
+.clsDiscenter {
+  margin: 0 auto;
+}
+.clsDwhTextContent {
+  margin: 0 auto !important;
+  width: 75% !important;
+  max-width: 75% !important;
+}
+.clsDwhFeaImg .elementor-widget-container {
+  margin-top: 60px !important;
+}
+.clsDwhTextContent .elementor-widget-container {
+  margin-bottom: 30px !important;
+}
+.clsDWHImageRight {
+  margin-bottom: 0px !important;
+}
+.membershipTxt h2 marquee a {
+  font-family: "visby_cfextra_bold" !important;
+}
+.membershipTxt h2 marquee a:hover {
+  color: #ef548a !important;
+}
+.sub-menu .menu-item a.elementor-sub-item {
+  letter-spacing: 0px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .sub-menu .menu-item a.elementor-sub-item {
+    letter-spacing: 0px;
+  }
+}
+.tribe-common .tooltipster-content p {
+  color: #1c194f;
+}
+.tribe-events-c-events-bar__views {
+  display: none !important;
+}
+.tribe-common-c-btn.tribe-events-c-search__button {
+  margin-right: 25px;
+}
+.tribe-events
+  .tribe-events-calendar-month__day--current
+  .tribe-events-calendar-month__day-date-link {
+  color: #ef548a !important;
+}
+.clsListspace .clsGroupfirst {
+  padding-top: 0px;
+}
+.clsLearning {
+  margin-bottom: 7px !important;
+}
+.clsLearning1 {
+  margin-bottom: 0px !important;
+}
+.clsExperienceList .blog-content h2.clsExpTitleReadmore span {
+  max-width: 75%;
+  font-family: "visby_cfextra_bold" !important;
+}
+.clsExperienceList .blog-content h4.clsExpTitleReadmore span {
+  max-width: 75%;
+  font-family: "visby_cfextra_bold" !important;
+}
+.accordionTxt.clsAccalign .ghostbtn {
+  font-size: 19px !important;
+}
+
+.clsBtnsummer1 {
+  display: flex;
+  justify-content: left;
+}
+.clsSummertop .ghostbtn {
+  font-family: "visby_cfextra_bold" !important;
+  font-size: 19px;
+  font-weight: 900;
+  text-transform: uppercase;
+  background-color: #ef538a;
+  padding: 10px 25px;
+  color: #fff;
+  text-decoration: none !important;
+}
+.clsSummertop .ghostbtn:hover {
+  background-color: #1c194f;
+}
+.clsSummertop .ghostbtn.margn {
+  margin-right: 30px;
+}
+.clsDiscoveryHomeListDetails .clsReadmore {
+  width: auto !important;
+  display: inline-block;
+}
+.elementor-element-1e30fd8 .elementor-nav-menu .menuTxt > a {
+  color: #999 !important;
+}
+.clsSummerHeadBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.clsSummerHeadBtn a:first-child {
+  margin-bottom: 20px;
+}
+
+.clsSponsorbtn1 a {
+  text-decoration: none !important;
+  color: #ef548a !important;
+  font-weight: 900 !important;
+}
+.clsSocialShareIcons {
+  position: fixed;
+}
+
+.clsRegisterbtn {
+  font-family: "visby_cfextra_bold" !important;
+  font-size: 19px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 43px;
+  background-color: #ef538a;
+  padding: 10px 20px;
+  color: #fff !important;
+}
+.clsRegisterbtn:hover {
+  background-color: #1c194f;
+  color: #fff;
+}
+
+.clsECbtn {
+  display: flex;
+}
+.clsECbtn p:first-child {
+  margin-right: 15px;
+}
+.clsDiscontact {
+  width: 80% !important;
+  margin: 0 auto;
+}
+.clsThankYouPage {
+  font-size: 19px;
+  line-height: 23px;
+}
+#gform_wrapper_2.gform_wrapper.gravity-theme .gfield_label {
+  font-size: 19px;
+  line-height: 23px;
+}
+#gform_wrapper_2 .gform_required_legend {
+  padding-bottom: 25px !important;
+}
+
+.clsClasspage ul.clsDHFilter li.clsFilterActive:hover,
+.clsClassesCatFilter ul.clsDHFilter li.clsFilterActive:hover {
+  background: #ef548a;
+}
+.single.single-discovery_world_home h3 {
+  font-size: 22px !important;
+}
+.clsTextcenter .elementor-icon-list-text {
+  text-align: center;
+}
+ul.clsGroupthird.clsGroupspace {
+  padding-top: 0px;
+}
+
+.clsDiscoveryHomeListDetails .clsClassesTitle h4::first-letter {
+  text-transform: capitalize;
+}
+.wp-pagenavi{margin-bottom: 25px;}
+.wp-pagenavi span, .wp-pagenavi a{margin: 2px 4px;border: 1px solid #1C194F;}
+.wp-pagenavi span.current{border-color: #ef538a;}
+.wp-pagenavi .current, .wp-pagenavi .extend, .wp-pagenavi .nextpostslink, .wp-pagenavi .larger{padding: 3px 10px;}
+.wp-pagenavi .current{background: #ef538a;border: 1px solid #ef538a;color: #fff;}
+.clsTicketbtn .elementor-button-content-wrapper{align-items: center;}
+.clsSummerprogram.clsClasspage .clsDiscoveryHomeListDetails{min-height: 540px !important;}
+.clsSummerprogram .clsClassDescription{min-height: 130px;}
+.clsAnimationtop:hover .clsQuote h6{color:#ffffff;}

@@ -1,0 +1,274 @@
+jQuery(document).ready(function () {
+  //keeps thumbnails active when changing main image, via mouse/touch drag/swipe
+  jQuery(".main-img-slider").on(
+    "afterChange",
+    function (event, slick, currentSlide, nextSlide) {
+      //remove all active class
+      jQuery(".thumb-nav .slick-slide").removeClass("slick-current");
+      //set active class for current slide
+      jQuery(".thumb-nav .slick-slide:not(.slick-cloned)")
+        .eq(currentSlide)
+        .addClass("slick-current");
+    }
+  );
+});
+
+function initSlider() {
+  // Main/Product image slider for product page
+  jQuery(".main-img-slider").slick({
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    swipeToSlide: true,
+    infinite: false,
+    focusOnSelect: true,
+    pauseOnHover: false,
+    //arrows: true,
+    autoplay: true,
+    infinite: true,
+    responsive: [
+      {
+        breakpoint: 1024, // for desktop width 992px
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600, // for tablet
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 480, // here's your mobile
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  });
+}
+
+jQuery(document).ready(function () {
+  initSlider();
+});
+
+jQuery(document).ready(function () {
+  jQuery("#exagefilter").on("change", function () {
+    var cls = jQuery("option:selected", this).attr("class");
+    jQuery(".clsFilters ul").find(".noresults").hide();
+    if (!jQuery(".clsFilters ul li").hasClass("cls" + cls)) {
+      jQuery(".clsFilters ul").find(".noresults").show();
+    }
+    jQuery(".clsFilters li").hide();
+    jQuery(".clsFilters")
+      .find(".cls" + cls)
+      .show();
+    if (cls == "empty") {
+      jQuery(".clsFilters ul li").show();
+      jQuery(".clsFilters ul").find(".noresults").hide();
+    }
+  });
+
+  jQuery('[class^="clsExperience-slider"]').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    infinite: false,
+    responsive: [
+      {
+        breakpoint: 1024, // for desktop width 992px
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600, // for tablet
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 480, // here's your mobile
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  });
+});
+
+jQuery(document).ready(function () {
+  jQuery(document).on("click", ".clsDHFilterlist", function () {
+    var id = jQuery(this).attr("id");
+    var disletter = "." + id;
+
+    jQuery(".clsDHFilterlist").removeClass("clsFilterActive");
+    jQuery(this).addClass("clsFilterActive");
+    //jQuery(".clsDiscoveryHomeListDetails").hide();
+    jQuery(".clsDiscoveryHomeListDetails").removeClass("clsActive");
+    jQuery(".clsDiscoveryHomeListDetails").fadeOut("slow");
+    jQuery(".clsDwhViewAll").fadeOut("slow");
+
+    //jQuery(disletter).show(1000);
+    jQuery(disletter).addClass("clsActive");
+    jQuery(disletter).fadeIn("slow");
+
+    if (id == "clsShowAll") {
+      //jQuery(".clsDiscoveryHomeListDetails").show(1000);
+      jQuery(".clsDiscoveryHomeListDetails").removeClass("active");
+      jQuery(".clsLoadShowClass").fadeIn("slow");
+      jQuery(".clsLoadHideClass").fadeOut("slow");
+      jQuery(".clsDwhViewAll").fadeIn("slow");
+    }
+  });
+
+  jQuery(document).on("click", ".clsDwhViewAll", function () {
+    jQuery(".clsDiscoveryHomeListDetails").removeClass("active");
+    jQuery(".clsLoadShowClass").fadeIn("slow");
+    jQuery(".clsLoadHideClass").fadeIn("slow");
+    jQuery(".clsDwhViewAll").fadeOut("slow");
+  });
+});
+
+jQuery(document).ready(function () {
+  jQuery(document).on("click", ".clsClasseslist", function () {
+    var id = jQuery(this).attr("id");
+    var disletter = "." + id;
+    jQuery(".clsClasseslist").removeClass("clsFilterActive");
+    jQuery(this).addClass("clsFilterActive");
+    //jQuery(".clsDiscoveryHomeListDetails").hide();
+    jQuery(".clsDiscoveryHomeListDetails").removeClass("clsActive");
+    jQuery(".clsDiscoveryHomeListDetails").fadeOut("slow");
+
+    //jQuery(disletter).show(1000);
+    jQuery(disletter).addClass("clsActive");
+    jQuery(disletter).fadeIn("slow");
+
+    if (id == "clsShowAll") {
+      //jQuery(".clsDiscoveryHomeListDetails").show(1000);
+      jQuery(".clsDiscoveryHomeListDetails").removeClass("active");
+      jQuery(".clsDiscoveryHomeListDetails").fadeIn("slow");
+    }
+  });
+
+  jQuery(".clsCatSection.ExperienceList.clsMoreExperiences").css(
+    "display",
+    "none"
+  );
+  jQuery(".clsViewAll").on("click", function (e) {
+    e.preventDefault();
+    jQuery(".clsCatSection.ExperienceList.clsMoreExperiences").fadeIn(500);
+    jQuery(".clsCatSection.ExperienceList.clsMoreExperiences").css(
+      "display",
+      "block"
+    );
+
+    jQuery(".clsCatSection.ExperienceList.clsMoreExperiences")
+      .find('[class^="clsExperience-slider"]')
+      .css("display", "block");
+    jQuery(".clsCatSection.ExperienceList.clsMoreExperiences")
+      .find('[class^="clsExperience-slider"]')
+      .slick("setPosition");
+    jQuery(".button.clsViewAll").hide();
+  });
+
+  /***********Summer Camp start ******/
+  jQuery(".clsCatSection.clsMoreWeeks").css("display", "none");
+  jQuery(".clsViewAll").on("click", function (e) {
+    e.preventDefault();
+    jQuery(".clsCatSection.clsMoreWeeks").fadeIn(500);
+    jQuery(".clsCatSection.clsMoreWeeks").css("display", "block");
+  });
+
+  /***********Summer Camp End ******/
+});
+
+jQuery(document).ready(function ($) {
+  var quotes = $(".quotes");
+  var quoteIndex = -1;
+
+  function showNextQuote() {
+    ++quoteIndex;
+    quotes
+      .eq(quoteIndex % quotes.length)
+      .fadeIn(2500)
+      .delay(2500)
+      .fadeOut(2500, showNextQuote);
+  }
+
+  showNextQuote();
+});
+
+var rightJS = {
+  init: function () {
+    rightJS.Tags = document.querySelectorAll(".rightJS");
+    for (var i = 0; i < rightJS.Tags.length; i++) {
+      rightJS.Tags[i].style.overflow = "hidden";
+    }
+    rightJS.Tags = document.querySelectorAll(".rightJS div");
+    for (var i = 0; i < rightJS.Tags.length; i++) {
+      rightJS.Tags[i].style.position = "relative";
+      rightJS.Tags[i].style.right =
+        "-" + rightJS.Tags[i].parentElement.offsetWidth + "px";
+    }
+    rightJS.loop();
+  },
+  loop: function () {
+    for (var i = 0; i < rightJS.Tags.length; i++) {
+      var x = parseFloat(rightJS.Tags[i].style.right);
+      x++;
+      var W = rightJS.Tags[i].parentElement.offsetWidth;
+      var w = rightJS.Tags[i].offsetWidth;
+      if ((x / 100) * W > w) x = -W;
+      if (
+        rightJS.Tags[i].parentElement.parentElement.querySelector(":hover") !==
+        rightJS.Tags[i].parentElement
+      )
+        rightJS.Tags[i].style.right = x + "px";
+    }
+    requestAnimationFrame(this.loop.bind(this));
+  },
+};
+window.addEventListener("load", rightJS.init);
+
+jQuery(document).ready(function ($) {
+  $(
+    ".homeUpcoming .tribe-events-widget-events-list__events .tribe-common-g-row:hover img"
+  ).on({
+    mouseenter: function () {
+      var site_url = window.location.hostname;
+      $(this).attr(
+        "src",
+        "'+site_url+'/wp-content/uploads/2022/08/Group-hover.svg"
+      );
+    },
+    mouseleave: function () {
+      $(this).attr(
+        "src",
+        "'+site_url+'/wp-content/uploads/2022/08/Group-10.svg"
+      );
+    },
+  });
+});
+
+jQuery(document).ready(function($) {
+  var delay = 100; setTimeout(function() {
+  $('.elementor-tab-title').removeClass('elementor-active');
+  $('.elementor-tab-content').css('display', 'none'); }, delay);
+  // Home page animation top
+ if ($('.clsQuote h6').html()==""){
+$(".clsAnimationtop").hide();
+}
+else{
+$(".clsAnimationtop").show();
+} 
+  }); 
